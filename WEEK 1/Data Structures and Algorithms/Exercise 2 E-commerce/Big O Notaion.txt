@@ -1,0 +1,47 @@
+1. Explain Big O notation and how it helps in analyzing algorithms
+Big O notation is a way to describe the efficiency of an algorithm in terms of how its performance changes as the input size increases. It helps us understand the upper bound (worst-case scenario) of an algorithm’s time or space requirements.
+
+ How Big O Helps:
+It provides a standard way to analyze and compare the performance of different algorithms.
+
+It helps in identifying scalable solutions that perform well even as data size grows.
+
+It abstracts away hardware details and focuses only on how the algorithm grows with input size (n).
+
+Example of Big O Time Complexities:
+O(1): Constant time – Example: Accessing an element in an array.
+
+O(n): Linear time – Example: Looping through a list.
+
+O(log n): Logarithmic time – Example: Binary search.
+
+O(n²): Quadratic time – Example: Bubble sort or nested loops.
+
+ 2. Describe the best, average, and worst-case scenarios for search operations
+When evaluating a search algorithm, we often consider three different cases:
+
+ Linear Search (used on unsorted data)
+Best Case:
+Time Complexity = O(1)
+The element is found at the beginning of the array.
+
+Average Case:
+Time Complexity = O(n)
+On average, half the array must be checked.
+
+Worst Case:
+Time Complexity = O(n)
+The element is at the end or not present at all.
+
+Binary Search (used on sorted data)
+Best Case:
+Time Complexity = O(1)
+The element is found in the middle of the array.
+
+Average Case:
+Time Complexity = O(log n)
+Each step reduces the search space by half.
+
+Worst Case:
+Time Complexity = O(log n)
+The element is found (or not found) after dividing the array multiple times.

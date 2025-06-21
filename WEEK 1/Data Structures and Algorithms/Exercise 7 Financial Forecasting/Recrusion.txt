@@ -1,0 +1,14 @@
+1. Understand Recursive Algorithms
+Recursion is a technique where a method calls itself to solve a problem.
+
+A recursive function has:
+
+Base case: Stops the recursion.
+
+Recursive case: Breaks the problem into smaller subproblems.
+
+Why use recursion?
+
+It simplifies problems like factorial, Fibonacci series, and tree traversal.
+
+It replaces complex loops with simpler code.
